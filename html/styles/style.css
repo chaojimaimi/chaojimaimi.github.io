@@ -1,0 +1,47 @@
+/*类别选择器*/
+/*
+h1 {
+	color: red;
+}
+*/
+/*伪类选择器
+ul:hover {
+	color: blue;
+}*/
+/*属性选择器
+img[src] {
+	color: orange;
+}*/
+
+html {
+	font-size: 10px; /*px 表示像素（pixels）：这个基础字号现在高10像素*/
+	font-family: 'Open Sans', sans-serif; /*剩下的部分是你从Google fonts 上获取的输出*/
+	background-color: #00539F;
+}
+
+h1 {
+	font-size: 60px;
+	text-align: center;
+	text-shadow: 3px 3px 1px black;
+	color: #00539F;
+	margin: 0;
+	padding: 20px 0;
+}
+p, li {
+	font-size: 16px;
+	line-height: 2;
+	letter-spacing: 1px;
+}
+
+body {
+	width: 600px;
+	background-color: #FF9500;
+	margin: 0 auto;   /*外边距：围绕元素外部的空间*/
+	padding: 0 20px 20px 20px;  /*内边距：围绕着内容的空间（比如围绕段落的空间）*/
+	border: 5px solid black;   /*边框：紧接着内边距的实体线段*/
+}
+
+img {
+	display: block;
+	margin: 0 auto;
+}
